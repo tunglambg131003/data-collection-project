@@ -1,0 +1,986 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meet a Whitehead Postdoc: Ally Nguyen | Whitehead Institute
+
+
+
+
+
+      Skip to main content
+    
+
+
+
+
+
+
+
+
+
+Whitehead Institute
+
+
+
+Main navigation
+
+
+About
+
+
+
+Overview
+
+
+
+Our Mission and Values
+
+
+Annual Reports
+
+
+Bionook
+
+
+Diversity and Inclusion
+
+
+Events
+
+
+Director's Dialogues
+
+
+History
+
+
+Leadership
+
+
+Message from the Director
+
+
+Public Programs
+
+
+Careers, Culture and Benefits
+
+
+Whitehead Fellows Program
+
+
+
+
+
+
+Research
+
+
+
+Overview
+
+
+
+Cancer
+
+
+Innovation Centers
+
+
+Cell Renewal
+
+
+Regeneration, Rejuvenation and Aging
+
+
+Genes and Genomes
+
+
+Infectious Disease
+
+
+Nervous System 
+
+
+Plant Biology
+
+
+
+
+
+
+People
+
+
+
+Members and Fellows
+
+
+Postdoctoral Scholars
+
+
+Whitehead Fellows Program
+
+
+Alumni
+
+
+
+
+News
+
+
+
+All News
+
+
+Series
+
+
+For Journalists
+
+
+
+
+
+
+
+
+
+Whitehead Institute
+
+
+
+
+
+
+
+
+About
+
+
+
+Overview
+
+
+
+Our Mission and Values
+
+
+Annual Reports
+
+
+Bionook
+
+
+Diversity and Inclusion
+
+
+Events
+
+
+Director's Dialogues
+
+
+History
+
+
+Leadership
+
+
+Message from the Director
+
+
+Public Programs
+
+
+Careers, Culture and Benefits
+
+
+Whitehead Fellows Program
+
+
+
+
+
+
+Research
+
+
+
+Overview
+
+
+
+Cancer
+
+
+Innovation Centers
+
+
+Cell Renewal
+
+
+Regeneration, Rejuvenation and Aging
+
+
+Genes and Genomes
+
+
+Infectious Disease
+
+
+Nervous System 
+
+
+Plant Biology
+
+
+
+
+
+
+People
+
+
+
+Members and Fellows
+
+
+Postdoctoral Scholars
+
+
+Whitehead Fellows Program
+
+
+Alumni
+
+
+
+
+News
+
+
+
+All News
+
+
+Series
+
+
+For Journalists
+
+
+
+
+
+
+
+
+Give
+
+
+
+
+
+Search
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+Twitter
+Facebook
+Facebook
+Instagram
+Linkedin
+
+
+
+
+
+Menu
+
+
+Secondary Menu
+
+
+Give
+
+
+
+
+
+Search
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Postdoc Profile
+
+
+
+
+
+Meet a Whitehead Postdoc: Ally Nguyen
+
+
+
+
+
+Written by 
+Greta Friar
+
+
+June 28, 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copied to clipboard
+
+
+
+
+
+
+
+ 
+
+
+
+
+Image
+ 
+
+
+
+
+
+
+
+
+
+
+Whitehead Institute postdoc Ally Nguyen
+
+
+Credit
+Image: Provided by Ally Nguyen
+
+
+
+
+
+
+
+
+
+ 
+Ally Nguyen is a postdoc in Whitehead Institute Member Iain Cheeseman’s lab investigating genes involved in chromosome segregation during mitosis. We sat down with Nguyen to learn more about her and her experiences in and out of the lab.
+ 
+What are you investigating?
+I’m a relatively new postdoc in the Cheeseman lab, so my research is in its early stages. I'm really fascinated by genes that exhibit context-specific essentiality, which is when the same gene is required in some situations but not others. For example, there are genes whose function is required in early development but this function is no longer important in differentiated adult cell types. Another possible situation is a gene that is integral for cancer cell survival but not for normal cells to function and survive. Why might a gene be required in a cancer cell and not a normal cell? Cancer cells have to deal with a lot of added stresses, like transcriptional changes, mutational burdens, and other physiological stresses. In order to deal with these changes, the cancer cells might become reliant on certain pathways or systems in which a given gene is functioning.
+I find these instances of differential gene expression to be the most interesting situations, as understanding the role of these differentially required genes could allow us to identify vulnerabilities in diseases. For example, by targeting those genes, we might be able to kill cancer cells specifically while minimizing the effects on our normal, healthy cells. We want to identify such genes, so we’re looking at large-scale screening data to find genes that are behaving differently in different cell types. Then we’re trying to pinpoint what those genes are doing and how we can target them. Currently I am focusing on those genes that may be involved in cell division, especially in chromosome segregation during mitosis.
+ 
+When you were a kid, what did you want to be?
+I probably wanted to be a veterinarian or a field ecologist. I've always loved animals. I grew up in Florida, in the woods, so I spent a lot of time outside. I didn't really know what a field ecologist was at the time; I just knew I wanted to be outside studying animals, or maybe work in a zoo, or be a vet. But then I thought if I became a veterinarian, I would probably end up adopting all of the stray cats and dogs and I figured that was not the best idea. I am still happiest when I am outside surrounded by nature or hanging out with my (one) dog.
+ 
+How did you end up at Whitehead Institute, in the field you are in now?
+My route to Whitehead Institute was not a direct one. As an undergraduate, I was trained as an ecologist and I never really considered working in a different field. A family situation took me from Florida to New Jersey, and while I was waiting to apply to graduate school (for ecology) I took a position as a technician in a lab that studies meiosis — the type of cell division that creates sex cells. I fell in love with the research, and ended up staying in the same lab for my PhD, studying the proteins involved in cell division, but in meiosis, not in mitosis — the type of cell division found in ordinary tissue growth. I was looking specifically at the role of the Aurora kinase proteins in female eggs, and we had found that one kinase, Aurora kinase B, behaves very differently in meiotic cells than mitotic cells. This difference is what started to pique my interest in how a single protein can behave very differently in different situations.
+At the time, I was working with mouse oocytes, the cells that eventually mature to become eggs. For my postdoc I wanted to broaden my toolkit and gain experience working in other systems — different cell types, different organisms, mitotic versus meiotic division. When I was interviewing at labs for my postdoc, I felt that Iain's lab offered the best opportunities in that regard, and that it would be the perfect place to grow as a scientist.
+  
+Having switched fields, what is different about your current research than you might have expected?
+How slow cell culture can be. Working with oocytes was extremely slow at times, because it involves breeding and rearing mice, and I was under the impression that working in cell lines would be so much faster. But like anything it depends on what you want to do, and it can be very slow at times. That was surprising to me. I want to set up an experiment and know the result instantly — I'm a little bit impatient — so the waiting part is hard. When I came to Whitehead Institute, I fantasized that finally I'd have a quick system, but no such luck. I am sure that this is the case with all systems but I naïvely hoped it would not be the case with mitotic cells.
+ 
+What are you passionate about other than your research?
+I do a lot of tutoring and volunteer work with young students. I work with Harlem Lacrosse, which is a school program for mostly middle school and some high school kids, who are at the highest risk of dropping out of school. This can include students with special educational needs or from low economic backgrounds. The program, of course, engages the students in lacrosse, but they also do academic tutoring and that’s the part I’m involved in. I personally never played lacrosse, but my brother does, which is how I found out about this program. Every Tuesday evening, I go down to Fields Corner library and work with young women, specifically, mostly sixth graders, on science or math or whatever they need to work on at that time. We also mentor the students outside of the classroom, so some weekends we will take them to a hockey game or to do some activity. It is a lot of fun. I’m also involved in the public programs at Whitehead Institute. That's the type of stuff I love. Anytime programs working with students are going on I want to be involved. I also always try to have an undergraduate in the lab that I can help train.
+ 
+What do you like about teaching?
+I like helping students discover what they are passionate about. I think watching a student finally work through a problem that they did not know they were capable of solving is what drives me. Seeing that “aha” moment, and more importantly helping someone see that they can achieve anything if they put their mind to it, means a lot to me. When I was growing up I didn’t have many people invested in my education, until I went to college where I had a few amazing professors that were so personally invested in helping their students learn and getting us excited about science. I know that personally, getting that kind of support changed my life for the better. I want to give that same feeling back to the students, that feeling of discovering something I was passionate about and that I could actually be good at. I especially like seeing young women get excited about science and showing them all of the cool things that we don't yet know. Every day you can be discovering something new.
+ 
+What are your hobbies?
+I'm really into doing anything outside. I like hiking with my dog. I grew up in North Florida where you have vast expanses of woods in your backyard, and you can just walk outside and go hiking, or fishing, or anything outdoors — I have always had a soft spot for reptiles so even when I was young I would always be outside trying to catch snakes and young alligators.
+I'm a big snowboarder, which is funny because I hate the winter, but I really love snowboarding. My husband was a surfer, and I had gone skiing once when I was a kid and I really, really liked it. When we moved up north, we wanted to find something to do outside. It was wintertime so we couldn't go hiking as much, so we tried snowboarding and kind of fell in love with it.
+More recently, my husband and I took up sailing. I really like trying and learning something new. We also like to go canoeing and kayaking, anything on water, and then we do a lot of hiking with our dog.
+
+
+Ally's dog, Raji
+Courtesy of Ally Nguyen
+
+ 
+
+ 
+What kind of dog do you have?
+I have an Indian native dog. She was a street dog from India that we rescued through a program in New Jersey. My whole life I've always had a lot of animals. Growing up we always had at least ten dogs, ten cats, horses, pigs, goats; all of them rescues. When I moved to New Jersey I wanted to get a rescue animal, and there was a woman whose husband works in a consulate over in India, and they would bring over these street dogs they would find. That’s how I got my dog.
+ 
+Where do you see yourself in ten years?
+I would love to be a PI of my own lab. I know I want to continue to work in academic research and most importantly to work with students. I am still torn on whether I would be happiest at a large or small university. I can see the benefits of both. I started my research career at a very small university where there was a lot of interaction between the PIs and the students, and a lot of hands on interaction. Wherever I end up I hope I can recapitulate that same environment.  So, in ten years I would love to be in my own lab, doing research and training the next generation of scientists.
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copied to clipboard
+
+
+
+
+Topics
+
+Cell Renewal
+Postdoc Profile
+Genetics + Genomics
+
+
+
+Contact
+Communications and Public Affairs
+Phone: 617-452-4630
+Email: newsroom@wi.mit.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+The Cheeseman Lab studies the molecular players involved in chromosome segregation and cell division.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Related News
+
+
+See All >
+
+
+
+
+
+
+
+
+
+
+Image
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meet a Whitehead Postdoc: Sonia Boor
+
+
+
+Postdoc Profile
+
+
+
+July 18, 2024
+
+
+
+
+
+Sonia Boor is a postdoc in Whitehead Institute Member Mary Gehring’s lab studying how to make the crop plant pigeon pea more resilient against climate change. We sat down with Sonia to learn more about her and her experiences in and out of the lab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meet a Whitehead Postdoc: Luiza de Oliveira Saad
+
+
+
+Postdoc Profile
+
+
+
+May 28, 2024
+
+
+
+
+
+Luiza is a postdoc in Whitehead Institute Member Peter Reddien’s lab developing a slug as a model species to study development and regeneration. We sat down with Luiza to learn more about her and her experiences in and out of the lab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meet a Whitehead Postdoc: Brad Wierbowski
+
+
+
+Postdoc Profile
+
+
+
+March 28, 2024
+
+
+
+
+
+Brad Wierbowski is a postdoc in Whitehead Institute Member David Bartel’s lab studying the turnover of messenger RNAs. We sat down with Brad to learn more about him and his experiences in and out of the lab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign up for our email newsletter, Pulse. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Footer menu
+
+
+Accessibility
+
+
+Career opportunities
+
+
+Contact us
+
+
+Directory
+
+
+Public programs
+
+
+Financial disclosure policy
+
+
+Support our work
+
+
+
+
+
+455 Main Street
+Cambridge, MA 02142
+
+
+
+© 2024 Whitehead Institute
+
+
+
+
+Twitter
+Facebook
+Facebook
+Instagram
+Linkedin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
