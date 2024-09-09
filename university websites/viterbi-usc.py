@@ -1,16 +1,12 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 import time
 import csv
 import requests
 import summarize
-from transformers import pipeline
 
 domain_url = "viterbi.usc.edu/directory/faculty/"
 full_url = "https://viterbi.usc.edu/directory/faculty/"
@@ -59,7 +55,6 @@ chrome_options.page_load_strategy = 'none'  # Avoid full page load
 
 # Step 3: Initialize the WebDriver with merged options
 driver = webdriver.Chrome(options=chrome_options)
-
 # Step 4: Navigate to a URL
 driver.get(full_url)
 
@@ -72,7 +67,7 @@ driver.execute_script("window.stop();")
 # profile_urls = get_profiles() # Enable if need re-scraping
 profile_urls = get_profile_urls() # Enable if reusing scraped profile URLs
 
-with open('viterbi-usc.csv', 'w', newline='') as file_output:
+with open('university websites/profiles/viterbi-usc.csv', 'w', newline='') as file_output:
     headers = ['Name', 'Title-Department', 'Contact Information', 'Profile URL', 'Biography', 'Research Summary', 'Address']
     writer = csv.DictWriter(file_output, fieldnames=headers)
     writer.writeheader()

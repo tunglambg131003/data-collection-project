@@ -41,6 +41,8 @@ profile_urls = get_urls()
 
 print(profile_urls)
 
+driver.quit()
+
 # Common Vietnamese last names: Bui, Dang, Do, Duong, Ho, Hoang, Huynh, Le, Ly, Ngo, Nguyen, Pham, Phan, Tran, Van, Vo, Vu.
 
 # Student (PG or Professor): name, department, school, student year, email

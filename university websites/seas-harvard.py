@@ -55,4 +55,5 @@ with open('seas-harvard.csv', 'w', newline='') as file_output: # syntax: with op
                     'Phone Number': phone_number
                 })
 
+driver.quit()
 print("Done and dusted!")

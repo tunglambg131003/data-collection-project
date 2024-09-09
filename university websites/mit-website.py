@@ -81,3 +81,5 @@ search_box.send_keys('nguyen')
 search_box.submit()
 
 print(crawl(driver.current_url))
+
+driver.quit()
