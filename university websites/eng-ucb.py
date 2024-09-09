@@ -15,7 +15,7 @@ def get_profile_urls():
     # Should update periodically
     return {'https://viterbi.usc.edu/directory/faculty/Nguyen/Hannah', 'https://viterbi.usc.edu/directory/faculty/Nguyen/Zune', 'https://viterbi.usc.edu/directory/faculty/Tu/Stephen', 'https://viterbi.usc.edu/directory/faculty/Mai/John', 'https://viterbi.usc.edu/directory/faculty/Nguyen/Calvin', 'https://viterbi.usc.edu/directory/faculty/Gencturk/Bora', 'https://viterbi.usc.edu/directory/faculty/Phan/Phan', 'https://viterbi.usc.edu/directory/faculty/Luhar/Mitul', 'https://viterbi.usc.edu/directory/faculty/Nguyen/Quan'}
 
-last_names = ['Bui', 'Dang', 'Hoang', 'Huynh', 'Ngo', 'Nguyen', 'Pham', 'Phan', 'Tran', 'Tu', 'Vu']
+last_names = ['Bui', 'Dang', 'Dat Le', 'Hoang', 'Huynh', 'Ngo', 'Nguyen', 'Pham', 'Phan', 'Tran', 'Tu', 'Vu']
 
 # Run Chrome in the background
 
@@ -66,7 +66,8 @@ with open('university websites/profiles/eng-ucb.csv', 'w', newline='') as file_o
             address = profile.find('div', class_='adr').text if profile.find('div', class_='adr') else ''
             address_cleaned = re.sub(r'\s+', ' ', address.replace('"', '')).strip()
 
-            print(f"Profile: {name}, {title}, {email}, {phone_number}, {address}")
+            print(f"Adding profile: {name}, {title}, {email}, {phone_number}, {address_cleaned}")
+            
             writer.writerow({
                 'Name': name,
                 'Title': title,
