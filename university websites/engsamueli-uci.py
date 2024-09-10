@@ -64,7 +64,6 @@ wait = WebDriverWait(driver, 20)
 element = wait.until(EC.presence_of_element_located((By.ID, 'edit-name')))
 driver.execute_script("window.stop();")
 
-print("hello")
 # profile_urls = get_profiles() # Enable if need re-scraping
 profile_urls = get_profile_urls() # Enable if reusing scraped profile URLs
 print("Profiles URLs:", profile_urls)
