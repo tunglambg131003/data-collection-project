@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-def summarize_text(long_text):
+def summarize_text(long_text, max_length_, min_length_):
 
     summarizer = pipeline(
         task="summarization",
@@ -8,5 +8,5 @@ def summarize_text(long_text):
         revision="main"
     )
 
-    summary = summarizer(long_text, max_length=50, min_length=25, do_sample=False)
+    summary = summarizer(long_text, max_length=max_length_, min_length=min_length_, do_sample=False)
     return summary[0]['summary_text']

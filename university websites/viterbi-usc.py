@@ -85,10 +85,10 @@ with open('university websites/profiles/viterbi-usc.csv', 'w', newline='') as fi
         contact_info = contact_info + ', ' + contact_info_2 if contact_info_2[-1] != ':' else contact_info
 
         bio = profile.find('div', class_='biography-piece').get_text(separator='\n') if profile.find('div', class_='biography-piece') else ''
-        bio_summary = summarize.summarize_text(bio) if bio != '' else ''
+        bio_summary = summarize.summarize_text(bio, 50, 25) if bio != '' else ''
         
         research = profile.find('div', class_='research-piece').get_text(separator='\n') if profile.find('div', class_='research-piece') else ''
-        research_summary = summarize.summarize_text(research) if research != '' else ''
+        research_summary = summarize.summarize_text(research, 50, 25) if research != '' else ''
 
         address = profile.find('h6', string='Office').find_next('ul').get_text(separator='\n') if profile.find('h6', string='Office').find_next('ul') else None
 
