@@ -1,4 +1,3 @@
-import pickle
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -8,36 +7,16 @@ from time import sleep
 import os
 import csv
 
-# Path to your cookie file
-cookies_file = "cookies.pkl"
-
-# Function to save cookies
-def save_cookies(driver, path):
-    with open(path, "wb") as file:
-        pickle.dump(driver.get_cookies(), file)
-
-# Function to load cookies
-def load_cookies(driver, path):
-    with open(path, "rb") as file:
-        cookies = pickle.load(file)
-        for cookie in cookies:
-            driver.add_cookie(cookie)
-
 # Initialize the driver
 driver = webdriver.Chrome()
+url = "https://www.linkedin.com/login"
+driver.get(url)
+print("- Finish initializing a driver")
 
 # Load environment variables
-# load_dotenv()
-# username = os.getenv('LINKEDIN_LOGIN_USERNAME')
-# password = os.getenv('LINKEDIN_LOGIN_PASSWORD')
-
-# Load cookies in subsequent runs
-driver.get("https://www.linkedin.com/login")
-load_cookies(driver, cookies_file)
-driver.refresh()  # Refresh to apply cookies
-
-# Now you can navigate to other LinkedIn pages as a logged-in user
-driver.get("https://www.linkedin.com/feed/")
+load_dotenv()
+username = os.getenv('LINKEDIN_LOGIN_USERNAME')
+password = os.getenv('LINKEDIN_LOGIN_PASSWORD')
 
 # Login to LinkedIn
 try:
@@ -81,8 +60,6 @@ urls_all_pages = []
 
 for page in range(input_page):
     urls_one_page = get_urls()
-    print(f'--- Page {page + 1} has {len(urls_one_page)} profiles')
-    print(urls_one_page)
     sleep(2)
     driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')  # Scroll to the end of the page
     sleep(3)
@@ -97,7 +74,7 @@ for page in range(input_page):
 
 print('- Finish Task 3: Scrape the URLs')
 
-with open('output.csv', 'w', newline='') as file_output:
+with open('linkedin_profiles.csv', 'w', newline='') as file_output:
     headers = ['Name', 'Job Title', 'Location', 'URL']
     writer = csv.DictWriter(file_output, delimiter=',', lineterminator='\n', fieldnames=headers)
     writer.writeheader()
@@ -107,12 +84,12 @@ with open('output.csv', 'w', newline='') as file_output:
             print('- Accessing profile: ', linkedin_url)
             sleep(3)
             page_source = BeautifulSoup(driver.page_source, "html.parser")
-            info_div = page_source.find('div', {'class': 'ph5 '})
+            info_div = page_source.find('div', {'class': 'ph5 pb5'})
             if info_div:
-                name = info_div.find('li', class_='inline t-24 t-black t-normal break-words')
-                location = info_div.find('li', class_='t-16 t-black t-normal inline-block')
-                title = info_div.find('h2', class_='mt1 t-18 t-black t-normal break-words')
-                if name and location and title:
+                name = info_div.find('h1', class_='text-heading-xlarge inline t-24 v-align-middle break-words')
+                location = info_div.find('span', class_='text-body-small inline t-black--light break-words')
+                title = info_div.find('div', class_='text-body-medium break-words')
+                if name :
                     writer.writerow({
                         headers[0]: name.get_text().strip(),
                         headers[1]: title.get_text().strip(),
