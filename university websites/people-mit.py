@@ -48,7 +48,7 @@ driver.quit()
 # Student (PG or Professor): name, department, school, student year, email
 # Staff (STEM): name, department, email, phone, address, title
 
-# with open('students.csv', 'w', newline='') as file_output:
+# with open('people-mit.csv', 'w', newline='') as file_output:
 #     headers = ['Name', 'Department', 'School', 'Student Year', 'Email', 'URL']
 #     writer = csv.DictWriter(file_output, fieldnames=headers)
 #     writer.writeheader()
