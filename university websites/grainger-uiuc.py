@@ -127,16 +127,16 @@ with open('university websites/profiles/grainger-uiuc.csv', 'w', newline='') as 
         
         phone_no_cleaned = re.sub(r'\s+', ' ', phone_no_tag.get_text()).replace('"', '').strip() if phone_no_tag else ''
 
-        research_int = '\n'.join([li.get_text() for li in title_li_tags]) if research_int_li_tags else ''
+        research_int = '\n'.join([li.get_text() for li in research_int_li_tags]) if research_int_li_tags else ''
         research_int_cleaned = re.sub(r'\s+', ' ', title).replace('"', '').strip() if title else ''
 
-        research_areas = '\n'.join([li.get_text() for li in title_li_tags]) if research_areas_li_tags else ''
+        research_areas = '\n'.join([li.get_text() for li in research_areas_li_tags]) if research_areas_li_tags else ''
         research_areas_cleaned = re.sub(r'\s+', ' ', title).replace('"', '').strip() if title else ''
 
-        academic_posts_cleaned = '\n'.join([li.get_text() for li in title_li_tags]) if academic_posts_li_tag else ''
+        academic_posts_cleaned = '\n'.join([li.get_text() for li in academic_posts_li_tag]) if academic_posts_li_tag else ''
         academic_posts = re.sub(r'\s+', ' ', title).replace('"', '').strip() if title else ''
 
-        pro_highs = '\n'.join([li.get_text() for li in title_li_tags]) if pro_highs_li_tag else ''
+        pro_highs = '\n'.join([li.get_text() for li in pro_highs_li_tag]) if pro_highs_li_tag else ''
         pro_highs_cleaned = re.sub(r'\s+', ' ', title).replace('"', '').strip() if title else ''
 
         writer.writerow({
