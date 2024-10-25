@@ -1,7 +1,6 @@
-# Data Collection Tool Development Project
+# How to scrape Vietnamese profiles from engineering schools in the United States
 
-
-This project is designed to automate the collection of academic profiles from various engineering school websites. The tool leverages Selenium and BeautifulSoup to extract relevant information and store it in structured formats like CSV and XLSX files.
+This is a user manual for the **data collection tool (DCT)**, which can scrape and store academic profiles from various engineering school websites in the United States. The tool mainly leverages Selenium and BeautifulSoup to extract relevant information and store it in structured formats like CSV and XLSX files.
 
 # Features
 - Store necessary information for scraping process in lightweight JSON files.
@@ -19,7 +18,7 @@ cd data-collection-project
 
 ## Step 2: Set Up Virtual Environment (Optional)
 ```bash
-ython -m venv env
+python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 ```
 
@@ -81,14 +80,34 @@ After selecting the scraping mode, you will be prompted to enter a school code. 
 7. Chrome WebDriver Setup
 The project uses Selenium WebDriver to automate browser interactions. Ensure you have Google Chrome installed and the matching ChromeDriver version in your system PATH.
 
-For headless scraping (without GUI), you can uncomment the `chrome_options.add_argument("--headless")` line in `us_schools_scraper.py`.
+For more control over the scraping process (with GUI), you can uncomment the `chrome_options.add_argument("--headless")` line in `us_schools_scraper.py`.
+
+For debugging it is recommended to try one of the methods below: (TOBEADDEDLATER)
+1. chrome_options.page_load_strategy = "none"
+2. file-level
 
 # Project Structure
 ```graphql
 data-collection-project/
+├── Google Scholar/
+│   ├── Google Scholar Profile - Computer Science  
+│   │   └── (5 CSV files inside, each for one sheet in Google Scholar Profiles.xlsx)
+│   │   └── Google Scholar Profiles.xlsx
 │
-├── US Engineering Schools/          
+├── LinkedIn/
+│   │   └── (5 CSV files inside, each for one sheet in Google Scholar Profiles.xlsx)
+│   │   └── LinkedIn Profiles.xlsx
+│
+├── src/
+│   │   └── fetch_profile_urls.py
+│   │   └── scrape_one_step.py
+│   │   └── scrape_two_steps.py
+│   │   └── summy_example.py
+│   │   └── us_schools_scraper.py
+│   │
 │   ├── school_infos.json          # Configuration for each school (URLs, headers, scraping steps)
+
+├── US Engineering Schools/
 us_schools_scraper.py
 │   ├── profile_urls.json          # Stores URLs fetched in the first step for two-step scraping
 │   └── Profiles/                  # Directory where scraped profiles (CSV/Excel) are saved
@@ -112,6 +131,9 @@ Selenium, BeautifulSoup, pandas, openpyxl, Google Chrome & ChromeDriver, time, r
 
 # Contributing
 Feel free to submit issues or pull requests if you have suggestions or improvements.
+
+# License
+This repo is exclusively limited in access for people in **CECS**. People with access can clone, use, suggest and modify DCT **for the benefits of CECS**.
 
 # Contact
 For any questions or issues, please contact:
