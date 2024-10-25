@@ -89,21 +89,13 @@ data-collection-project/
 │
 ├── US Engineering Schools/          
 │   ├── school_infos.json          # Configuration for each school (URLs, headers, scraping steps)
+us_schools_scraper.py
 │   ├── profile_urls.json          # Stores URLs fetched in the first step for two-step scraping
 │   └── Profiles/                  # Directory where scraped profiles (CSV/Excel) are saved
 │
-├── scrape_one_step/               # Contains scripts for one-step scraping logic
-│   ├── harvard_seas.py
-│   └── ucb_eng.py
+├── scrape_one_step.py/               # Contains scripts for one-step scraping logic
 │
-├── scrape_two_steps/              # Contains scripts for two-step scraping logic
-│   ├── mit_superurop.py
-│   ├── mit_pages.py
-│   ├── uci_samueli.py
-│   ├── ucsd_jacobs.py
-│   ├── uiuc_grainger.py
-│   ├── usc_viterbi.py
-│   └── uta_cockrell.py
+├── scrape_two_steps.py/              # Contains scripts for two-step scraping logic
 │
 ├── fetch_profile_urls.py          # Contains logic to fetch profile URLs for two-step scraping
 │
@@ -113,6 +105,7 @@ data-collection-project/
 │
 └── README.md                      # Documentation on how to use the project
 ```
+Google Scholar Profile - Computer Science.csv
 
 # Dependencies
 Selenium, BeautifulSoup, pandas, openpyxl, Google Chrome & ChromeDriver, time, re, glob, json
